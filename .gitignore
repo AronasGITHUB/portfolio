@@ -1,0 +1,18 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variable files (if used)
+.env
+.env.local
+
+# Log files (if applicable)
+*.log
+
+# Backup files
+*.bak
+*.tmp

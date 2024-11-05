@@ -1,0 +1,179 @@
+/*
+ * CSS File for my portfolio
+ * This code is licensed under the GPL License
+ */
+
+/* Global body font settings */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Main content centering */
+main {
+    text-align: center; /* This centers text inside the main section */
+}
+
+main a {
+    color: #1797c7;
+}
+
+footer a {
+    color: #1797c7;
+}
+
+/* Header styles */
+header {
+    text-align: center; /* Center the text in the header */
+    padding: 50px;
+    background-color: #333;
+    color: white;
+}
+
+header h1, header h3 {
+    margin: 0; /* Remove default margin around h1 and h3 */
+}
+
+/* Navbar styles */
+nav {
+    display: flex; /* Use Flexbox to align navbar items */
+    justify-content: space-between; /* Spread out navbar links */
+    padding: 10px 20px;
+    background-color: #444;
+    flex-wrap: wrap; /* Allow navbar items to wrap on smaller screens */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px; /* Add spacing between links */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet and smaller (screen width <= 768px) */
+@media (max-width: 768px) {
+    /* Adjust header padding */
+    header {
+        padding: 30px;
+    }
+
+    /* Navbar items stack vertically on smaller screens */
+    nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align items */
+        padding: 10px 0; /* Increase padding for easier touch */
+    }
+
+    nav a {
+        margin: 10px 0; /* Stack navbar links with more space */
+        padding: 10px 20px;
+    }
+
+    /* Adjust section padding */
+    section {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    /* Adjust heading sizes for smaller screens */
+    header h1 {
+        font-size: 2.5rem; /* Slightly smaller on tablets */
+    }
+
+    header h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile (screen width <= 480px) */
+@media (max-width: 480px) {
+    /* Adjust header padding */
+    header {
+        padding: 20px;
+    }
+
+    /* Navbar items stack vertically and take up more space */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    nav a {
+        margin: 10px 0;
+        padding: 12px 25px; /* Bigger padding on small devices for better clickability */
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    /* Adjust heading sizes further for small screens */
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large screen (>= 1200px) */
+@media (min-width: 1200px) {
+    header h1 {
+        font-size: 3.5rem; /* Make header text bigger on large screens */
+    }
+
+    header h3 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1.2rem; /* Slightly larger links on large screens */
+    }
+}
+/* Images */
+img {
+    width: 100%;        /* Makes the image scale to the container width */
+    max-width: 500px;   /* Limits the maximum width to 500px */
+    height: auto;       /* Keeps the aspect ratio of the image */
+    border: none;       /* No border around the image */
+    border-radius: 10px;/* Rounded corners */
+    display: block;     /* Ensures image is displayed as a block-level element */
+    margin: 0 auto;     /* Centers the image horizontally */
+}
+
