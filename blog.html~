@@ -16,7 +16,7 @@
 		<meta name="keywords" content="web development, HTML, coding, CSS, JavaScript, aronas">
 		<meta name="robots" content="index, follow">
 
-		<title>Aronas Finocenka - Portfolio</title>
+		<title>Aronas Finocenka - Blog</title>
 		<link rel="stylesheet" href="styles.css">
 		<link rel="icon" href="assets/favicon/roskildefjord.jpg">	
 	</head>
@@ -41,12 +41,11 @@
 		</header>
 		<hr>
 		<main>
-			<p>This portfolio is licensed under the GNU General Public License.</p>
-			<p>You can view the source code: <a href="https://github.com/AronasGITHUB/portfolio" target="_blank" title="View the source code in Github">here.</a>
-			<p>If you want to see what can you do with this portfolio, read the license.</p>
-			<p>Licenses are not legal advice.</p>
-			<hr>
-			<p>Read the license: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">here</a></p>
+			<p>I dont have any, but will come soon!</p>
+			<p>Expect to see a article title, and a thumbnail for this article. Press either and you get redirected to the blog page.</p>
+			<br><br>
+			<img src="assets/images/empty.png">
+			<br><br>
 		</main>
 		<hr>
 		<footer>
@@ -54,7 +53,6 @@
 			&copy; All rights reserved.<br>
 			This website is licensed under the GPL License.<br>
 			<a href="license.html">See info</a>
-			<a href="https://www.github.com/AronasGITHUB/portfolio">View source code</a>
 			</p>
 		</footer>
 	</body>
